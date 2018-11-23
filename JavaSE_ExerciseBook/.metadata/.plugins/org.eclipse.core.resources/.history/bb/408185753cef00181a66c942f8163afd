@@ -1,0 +1,13 @@
+package com.qa.level2.library;
+
+public class LibraryUI
+{
+	String inputTitle;
+	int inputYear;
+	int inputCopies;
+	// scanner
+	
+	
+	// add new book
+	Book tempBook = new BookManager().title(inputTitle).yearPublished(inputYear).copies(inputCopies).buildBook();
+}

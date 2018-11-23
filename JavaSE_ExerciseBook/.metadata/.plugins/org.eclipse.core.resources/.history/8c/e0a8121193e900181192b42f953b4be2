@@ -1,0 +1,8 @@
+package com.QA.something;
+
+import java.util.Scanner;
+
+public class Navigation_Input
+{
+	
+}

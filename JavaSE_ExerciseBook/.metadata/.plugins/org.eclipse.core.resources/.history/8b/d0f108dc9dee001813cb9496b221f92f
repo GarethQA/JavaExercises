@@ -1,0 +1,44 @@
+package com.qa.level2.library;
+
+public abstract class LibraryProperty
+{
+	// LibraryProperty = Abstract
+	private int iD;
+	public int year;
+	public String title;
+
+	//-------	
+
+	public int getID()
+	{
+		return iD;
+	}
+
+	public int getYear()
+	{
+		return year;
+	}
+
+	public String getTitle()
+	{
+		return title;
+	}
+	//-------	
+
+	public void setID(int iD)
+	{
+		this. iD = iD;
+	}
+
+	public void setYear(int year)
+	{
+		this. year = year;
+	}
+
+	public void setTitle(String title)
+	{
+		this. title = title;
+	}
+	//-------
+	
+}

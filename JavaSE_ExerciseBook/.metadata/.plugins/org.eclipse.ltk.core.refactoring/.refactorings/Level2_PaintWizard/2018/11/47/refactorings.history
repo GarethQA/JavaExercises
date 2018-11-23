@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.qa.wizard&apos; to &apos;com.qa.level2.paintwizard&apos;&#x0D;&#x0A;- Original project: &apos;Level2_PaintWizard&apos;&#x0D;&#x0A;- Original element: &apos;Level2_PaintWizard/src/com.qa.wizard&apos;&#x0D;&#x0A;- Renamed element: &apos;Level2_PaintWizard/src/com.qa.level2.paintwizard&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.qa.wizard&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.qa.wizard" name="com.qa.level2.paintwizard" qualified="false" references="true" stamp="1542881432819" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package com.qa.level2.library;
+
+public class Catalog
+{
+	private int iDnum = 1;
+	
+	public void addItem(Object itemObject)
+	{
+		Catalog catlog = new Catalog();
+		catlog.iDnum = ++iDnum;
+		
+		Library library = new Library();
+		library.catalog.put(iDnum, itemObject);
+	}
+	
+	
+}

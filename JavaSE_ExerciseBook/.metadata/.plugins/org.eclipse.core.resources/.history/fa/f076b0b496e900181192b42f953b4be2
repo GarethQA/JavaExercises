@@ -1,0 +1,26 @@
+package com.qa.swamp;
+
+public class DistanceCalc
+{
+	private int[] location;
+	private int[] goal = {0, 0};
+
+	private int distance;
+
+	DistanceCalc (int[] location)
+	{
+		this.location = location; 
+		//this.goal 	  = goal;
+		this.distance = (int) Math.sqrt(Math.pow((location[0] - goal[0]), 2) + Math.pow((location[1] - goal[1]), 2));
+	}
+
+	public int getDistance()
+	{	
+		return distance;
+	}	
+
+	public void setlocation(int[] location)
+	{
+		this.location = location; 
+	}
+}

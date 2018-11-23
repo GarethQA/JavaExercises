@@ -1,0 +1,57 @@
+package com.qa.level2.library;
+
+public class Book
+{
+	private String title;
+	private int yearPublished;
+	private int copiesInLibrary;
+	private int copiesOnLoan;
+	
+	Book(String title, int yearPublished, int copiesInLibrary, int copiesOnLoan)
+	{
+		this.title = title;
+		this.yearPublished = yearPublished;
+		this.copiesInLibrary = copiesInLibrary;
+		this.copiesOnLoan = copiesOnLoan;
+	}
+	
+	public void setTitle(String title)
+	{
+		this.title = title;
+	}
+	
+	public void setTitle(int yearPublished)
+	{
+		this.yearPublished = yearPublished;
+	}
+	
+	public void setCopiesInLibrary(int copiesInLibrary)
+	{
+		this.copiesInLibrary = copiesInLibrary;
+	}
+	
+	public void setCopiesOnLoan(int copiesOnLoan)
+	{
+		this.copiesOnLoan = copiesOnLoan;
+	}
+	
+	public String getTitle()
+	{
+		return this.title;
+	}
+	
+	public int getYearPublished()
+	{
+		return this.yearPublished;
+	}
+	
+	public int getcopiesInLibrary()
+	{
+		return this.copiesInLibrary;
+	}
+	
+	public int getcopiesOnLoan()
+	{
+		return this.copiesOnLoan;
+	}
+}

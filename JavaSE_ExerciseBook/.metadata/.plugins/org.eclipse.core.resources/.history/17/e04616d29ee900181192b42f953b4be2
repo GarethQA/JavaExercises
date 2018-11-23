@@ -1,0 +1,58 @@
+package com.qa.swamp;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Navigation_Input
+{
+	static int x = 0;
+	static int y = 0;
+	public static ArrayList<Integer> location = new ArrayList<Integer>();
+	location.add(x);
+	location.add(x);
+	
+	public static void main(String[] args) 
+	{
+		Navigation_Input playerInput = new Navigation_Input();
+		System.out.println (playerInput.input ());
+	}
+
+	// ----------------------------------------------
+	public String input()
+	{
+		Scanner console = new Scanner (System.in);
+		String input = console.nextLine ();
+		return input;
+
+		if (input instanceof String)
+		{
+			input = input.toUpperCase();
+
+			if(input == "North" || input == "N") 
+			{
+				// - Just north direction
+				// north = y +1 or y++
+				x = x;
+				y = y++;
+
+				newlocation(x, y);
+
+				DistanceCalc calc = new DistanceCalc(location);
+				//calc.setlocation(location);
+
+				System.out.println("In = " + calc);
+
+			}
+		}
+		else
+		{
+			System.out.println("Please pick a Direction");
+		}
+	}
+	public static void newlocation(int newX, int newY)
+	{
+		location.set(0, x);
+		location.set(1, y);
+	}
+
+}

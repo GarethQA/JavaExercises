@@ -1,0 +1,47 @@
+package com.qa.level1;
+
+/* Create an array that will hold 10 integer values, populate the array 
+ * with values, then call and output the result of your method from 
+ * Conditionals 2, passing values that are stored in the array as 
+ * arguments to the method.
+*/
+
+public class Arrays
+{
+	public static void main(String [] args)
+	{
+		int [] aRay = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+		for (int i = 0; i < 10; i++ )
+		{
+			Arrays calling = new Arrays ();
+			System.out.println (calling.calc (aRay[3] + 3, i * 3, true));
+		}
+	}
+
+	int calc(int x, int y, boolean z)
+	{
+		int w;
+		if (x != 0 && y != 0)
+		{
+			if (z) // default value is true
+			{
+				w = x + y;
+			}
+			else // opposite is false
+			{
+				w = x * y;
+			}
+		}
+		else if (x == 0)
+		{
+			w = y;
+		}
+		else
+		{
+			w = x;
+		}
+
+		return w;
+	}
+}

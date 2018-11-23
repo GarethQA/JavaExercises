@@ -1,0 +1,14 @@
+package com.qa.level2.library;
+
+import java.util.HashMap;
+
+public class MainLibrary
+{
+	public static void main (String[] args) // removes static poisoning
+	{
+		Library library = new Library();
+		library.requestDesk();
+		
+		HashMap<Integer, Object> bookCatalog = new HashMap<Integer, Object>(); // Add && Stream
+	}
+}

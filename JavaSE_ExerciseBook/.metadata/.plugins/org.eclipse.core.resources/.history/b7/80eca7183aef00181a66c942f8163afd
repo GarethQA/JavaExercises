@@ -1,0 +1,36 @@
+package com.qa.level2.library;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Optional;
+
+public class Catalog
+{
+	private int iDnum = 1;
+
+	Catalog catlog = new Catalog ();
+	Library library = new Library ();
+
+	public void addItem(Object itemObject)
+	{
+		if (itemObject instanceof Book)
+		{
+			catlog.iDnum = ++iDnum;
+			library.catalog.put ("B" + iDnum, itemObject);
+		}
+//		More instaceof if here for other object types
+	}
+
+	public Object getItemByID(String itemID)
+	{
+
+		// HashMap<Integer, Object> catalog = new HashMap<Integer, Object>(); --
+		// Reminder
+
+		Optional <List> searchResults = sR.entrySet().stream ().filter(sr -> sr.getKey().equals(itemID)))
+
+				library.catalog.get (itemName);
+
+		return searchResults;
+	}
+}

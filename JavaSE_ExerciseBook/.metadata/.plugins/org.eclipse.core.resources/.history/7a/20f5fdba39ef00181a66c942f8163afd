@@ -1,0 +1,30 @@
+package com.qa.level2.library;
+
+import java.util.HashMap;
+
+public class Catalog
+{
+	private int iDnum = 1;
+
+	Catalog catlog = new Catalog ();
+	Library library = new Library ();
+
+	public void addItem(Object itemObject)
+	{
+		catlog.iDnum = ++iDnum;
+		library.catalog.put (iDnum, itemObject);
+	}
+
+	public Object getItem(String itemName)
+	{
+
+		// HashMap<Integer, Object> catalog = new HashMap<Integer, Object>(); --
+		// Reminder
+
+		Optional <List> searchResults = sR.stream ().filter(sr -> sr.)
+
+				library.catalog.get (itemName);
+
+		return searchResults;
+	}
+}

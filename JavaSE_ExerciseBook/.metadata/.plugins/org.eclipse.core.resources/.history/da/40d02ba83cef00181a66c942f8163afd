@@ -1,0 +1,16 @@
+package com.qa.level2.library;
+
+public class LibraryUI
+{
+	String inputTitle;
+	int inputYear;
+	int inputCopies;
+	// scanner
+	
+	
+	// add new book
+	Book firstLang = new BookManager().title ("Cuneiform").yearPublished (-3400).copies (12).buildBook (); // Cuneiform is the oldest written language known
+	
+	Catalogue inLib = new Catalogue ();
+	inLib.addItem(firstLang);
+}

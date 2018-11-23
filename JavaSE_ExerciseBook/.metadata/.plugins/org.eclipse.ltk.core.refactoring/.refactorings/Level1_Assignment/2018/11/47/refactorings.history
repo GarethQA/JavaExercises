@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.qa.level1&apos; to &apos;com.qa.level1.assignment&apos;&#x0D;&#x0A;- Original project: &apos;Level1_Assignment&apos;&#x0D;&#x0A;- Original element: &apos;Level1_Assignment/src/com.qa.level1&apos;&#x0D;&#x0A;- Renamed element: &apos;Level1_Assignment/src/com.qa.level1.assignment&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.qa.level1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.qa.level1" name="com.qa.level1.assignment" qualified="false" references="true" stamp="1542880533870" textual="false" version="1.0"/>
+</session>

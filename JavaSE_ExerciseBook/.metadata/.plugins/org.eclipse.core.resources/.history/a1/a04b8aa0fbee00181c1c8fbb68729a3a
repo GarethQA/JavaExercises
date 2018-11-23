@@ -1,0 +1,9 @@
+package com.qa.level2.library;
+
+public class Library
+{
+	public void requestDesk()
+	{
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.qa.level2.library;
+
+import java.util.HashMap;
+
+public class Library
+{
+	HashMap<Integer, Object> catalog = new HashMap<Integer, Object>(); // Add && Stream
+	
+	public void requestDesk()
+	{
+		
+	}
+}

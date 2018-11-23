@@ -1,0 +1,32 @@
+package com.qa.level1;
+
+// Create a method that accepts two integers as parameters, then returns an 
+// integer that is a sum of the two integers given, then call this method 
+// from your main method and output the returned result.
+
+public class ParametersOperators
+{
+	public static void main(String [] args)
+	{
+		ParametersOperators calling = new ParametersOperators ();
+		System.out.println (calling.calc (2, 3, true));
+		System.out.println (calling.calc (2, 3, false));
+
+	}
+
+	int calc(int x, int y, boolean z)
+	{
+		int w;
+
+		if (z == true)
+		{
+			w = x + y;
+		}
+		else
+		{
+			w = x + y;
+		}
+
+		return w;
+	}
+}

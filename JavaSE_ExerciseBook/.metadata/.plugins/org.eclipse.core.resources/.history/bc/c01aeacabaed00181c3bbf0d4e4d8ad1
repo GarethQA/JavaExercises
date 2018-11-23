@@ -1,0 +1,14 @@
+package com.qa.level1;
+
+public class Parameters
+{
+	public static void main (String [] args)	
+	{
+		String hi = "Hello World!";
+		sayThis(hi);
+	}
+	public static void sayThis (String whatToSay)	
+	{
+		System.out.println (whatToSay);
+	}
+}

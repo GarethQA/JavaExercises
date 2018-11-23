@@ -1,0 +1,27 @@
+package com.qa.level1;
+
+public class ConditionalsPt2
+{
+	public static void main(String [] args)
+	{
+		ConditionalsPt2 calling = new ConditionalsPt2 ();
+		System.out.println (calling.calc (3, 3, true));
+		System.out.println (calling.calc (3, 3, false));
+	}
+
+	int calc(int x, int y, boolean z)
+	{
+		int w;
+
+		if (z) // default value is true
+		{
+			w = x + y;
+		}
+		else // opposite is false
+		{
+			w = x * y;
+		}
+
+		return w;
+	}
+}

@@ -1,0 +1,10 @@
+package com.qa.level2.library;
+
+public class MainLibrary
+{
+	public static void main (String[] args) // removes static poisoning
+	{
+		Library library = new Library();
+		library.requestDesk();
+	}
+}

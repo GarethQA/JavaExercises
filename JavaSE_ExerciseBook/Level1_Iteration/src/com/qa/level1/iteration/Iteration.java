@@ -1,0 +1,43 @@
+package com.qa.level1.iteration;
+
+/* Create a for loop that will call and output the result of your method from 
+ * Conditionals 2 10 times, using the current iteration as one of the parameters 
+ * you pass to it. */
+
+public class Iteration
+{
+	public static void main(String [] args)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			Iteration calling = new Iteration ();
+			System.out.println (calling.calc (i + 3, i * 3, true));
+		}
+	}
+
+	int calc(int x, int y, boolean z)
+	{
+		int w;
+		if (x != 0 && y != 0)
+		{
+			if (z) // default value is true
+			{
+				w = x + y;
+			}
+			else // opposite is false
+			{
+				w = x * y;
+			}
+		}
+		else if (x == 0)
+		{
+			w = y;
+		}
+		else
+		{
+			w = x;
+		}
+
+		return w;
+	}
+}

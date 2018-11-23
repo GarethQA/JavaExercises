@@ -1,0 +1,18 @@
+package com.qa.level1;
+
+// Create a method that accepts a string as a parameter, and then 
+// outputs that string to the console via a System.out.println(),
+// then call that method from your main method.
+
+public class Parameters
+{
+	public static void main (String [] args)	
+	{
+		String hi = "Hello World!";
+		sayThis(hi);
+	}
+	public static void sayThis (String whatToSay)	
+	{
+		System.out.println (whatToSay);
+	}
+}

@@ -1,0 +1,14 @@
+package com.qa.level1;
+
+/* Modify your method from the previous task to accept another parameter,
+ a Boolean, which if it is true, the method will return a sum of the two 
+ numbers, and if it is false it will return the multiplication of the two 
+ numbers.*/
+
+public class ConditionalsPt1
+{
+	public static void main (String[] args)
+	{
+		
+	}
+}
