@@ -1,12 +1,12 @@
 package com.qa.level2.library;
 
-public class Book
+public class GovDoc
 {
 	private String title;
 	private int yearPublished;
 	private int copies;
 	
-	Book(String title, int yearPublished, int copies)
+	GovDoc(String title, int yearPublished, int copies)
 	{
 		this.title = title;
 		this.yearPublished = yearPublished;

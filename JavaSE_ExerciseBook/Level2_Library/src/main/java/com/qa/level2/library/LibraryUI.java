@@ -6,10 +6,9 @@ public class LibraryUI
 	int inputYear;
 	int inputCopies;
 	// scanner
-	
+
 	public void userInput()
 	{
-		Catalogue inLib = new Catalogue ();
-		inLib.getItemByID("B1");
+
 	}
 }

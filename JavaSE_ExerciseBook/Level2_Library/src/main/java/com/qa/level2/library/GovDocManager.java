@@ -1,36 +1,36 @@
 package com.qa.level2.library;
 
-public class BookManager
+public class GovDocManager
 {
 	private String title;
 	private int yearPublished;
 	private int copies;
 
-	BookManager() // BookBinder?
+	GovDocManager()
 	{
 
 	}
 
-	BookManager title(String title)
+	GovDocManager title(String title)
 	{
 		this.title = title;
 		return this;
 	}
 
-	BookManager yearPublished(int yearPublished)
+	GovDocManager yearPublished(int yearPublished)
 	{
 		this.yearPublished = yearPublished;
 		return this;
 	}
 
-	BookManager copies(int copies)
+	GovDocManager copies(int copies)
 	{
 		this.copies = copies;
 		return this;
 	}
 
-	Book buildBook()
+	GovDoc buildGovDoc()
 	{
-		return new Book (title, yearPublished, copies);
+		return new GovDoc (title, yearPublished, copies);
 	}
 }
